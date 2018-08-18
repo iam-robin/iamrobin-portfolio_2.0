@@ -49,20 +49,7 @@ export default {
   p {
     margin-left: 40px;
     width: calc(100% / 3 * 2);
-  }
-}
-
-//-- DARKMODE --//
-body.darkmode .project-section{
-  .headline h2 {
-    color: $white;
-    &:after {
-      background-color: $white;
-    }
-  }
-
-  p {
-    color: $grey;
+    color: $darkgrey;
   }
 }
 

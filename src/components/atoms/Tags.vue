@@ -41,9 +41,4 @@ export default {
     }
   }
 }
-
-// DARKMODE //
-body.darkmode .tags {
-  color: $darkgrey;
-}
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <div class="project01">
-    <ProjectBgImage
+  <div class="project">
+    <ProjectBgImage class="header-image"
       src="mediacamp/website1.png"
       alt="mediacamp website mockup"
       color="#F0B731"

@@ -108,15 +108,4 @@ export default {
     opacity: 1;
   }
 }
-
-//-- DARKMODE --//
-body.darkmode .tools {
-  [data-tooltip]:before {
-    background-color: $lightgrey;
-    color: $black;
-  }
-  [data-tooltip]:after {
-    border-top: 6px solid $lightgrey;
-  }
-}
 </style>

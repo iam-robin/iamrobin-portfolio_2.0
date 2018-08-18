@@ -1,6 +1,11 @@
+.project .header-image:first-child {
+  border-radius: 4px 4px 0 0;
+}
+
 .project-container {
   background-color: $white;
   padding: 80px;
+  border-radius: 4px;
 }
 
 //-- DARKMODE --//

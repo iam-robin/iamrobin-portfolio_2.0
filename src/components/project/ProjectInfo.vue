@@ -59,6 +59,7 @@ export default {
     p {
       margin-top: 0;
       padding-bottom: 16px;
+      color: $darkgrey;
     }
 
     .meta-container {
@@ -109,27 +110,6 @@ export default {
           }
         }
       }
-    }
-  }
-}
-
-//-- DARKMODE --//
-body.darkmode .project-info {
-  h1 {
-    color: $white;
-  }
-  p {
-    color: $grey;
-  }
-  .meta-container {
-    .subheadline {
-      color: $darkgrey;
-    }
-    .year {
-      color: $grey;
-    }
-    .tags li {
-      color: $grey;
     }
   }
 }

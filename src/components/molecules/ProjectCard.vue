@@ -111,30 +111,4 @@ export default {
 body.darkmode .project-card {
   box-shadow: $card-box-shadow-dark;
 }
-/*
-body.darkmode .project-card {
-  background-color: $black;
-  box-shadow: $card-box-shadow-dark;
-
-  .description {
-    h1 {
-      color: $white;
-    }
-    p {
-      color: $grey;
-    }
-  }
-
-  .number {
-    opacity: .5;
-  }
-
-  &:hover {
-    box-shadow: $card-box-shadow-dark-hover;
-    .number {
-      opacity: .8;
-    }
-  }
-}
-*/
 </style>
