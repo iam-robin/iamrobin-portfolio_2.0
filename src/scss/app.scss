@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: $lightgrey;
+  transition: background-color .3s ease-in-out;
+}
+
+p {
+  color: $black;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#app {
+  font-family: $sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $black;
+  font-weight: $regular;
+
+  a {
+    font-family: $mono;
+  }
+}
+
+#content {
+  margin-left: 280px;
+  padding: 64px 120px 48px 80px;
+  max-width: 1240px;
+}
+
+
+.router-animation-leave-active {
+  animation: leave .3s;
+}
+
+.router-animation-enter-active {
+  animation: enter .3s;
+  animation-delay: .4s;
+  opacity: 0;
+  .project-card {
+    background-color: tomato;
+  }
+}
+
+@keyframes leave {
+  0% {
+    //transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    //transform: translateY(-40px);
+    opacity: 0;
+  }
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+//-- DARKMODE --//
+body.darkmode {
+  background-color: $darkmodebody;
+}
+
+//-- Mobile Layout Breakpoint --//
+@media only screen and (max-width: $mobile-breakpoint) {
+  #content {
+    margin-left: 0;
+  }
+}

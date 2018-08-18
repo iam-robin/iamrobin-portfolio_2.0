@@ -1,0 +1,16 @@
+// 3d box shadow without blur // 
+/*$card-box-shadow: 16px 16px 0 0 rgba(170, 178, 189, .2);
+$card-box-shadow-hover: 24px 24px 0 0 rgba(170, 178, 189, .2);
+$card-box-shadow-dark: 16px 16px 0 0 rgba(0, 0, 0, .2);
+$card-box-shadow-dark-hover: 24px 24px 0 0 rgba(0, 0, 0, .2);
+$card-hover: translateY(-4px) translateX(-4px);*/
+
+
+// blurry box shadow //
+$card-box-shadow: 0px 24px 30px 0px rgba(224, 228, 237, 0.3);
+$card-box-shadow-hover: 0px 30px 30px 0px rgba(224, 228, 237, 0.5);
+
+$card-box-shadow-dark: 0px 24px 30px 0 rgba(37, 40, 52, 0.1);
+$card-box-shadow-dark-hover: 0 30px 30px 0 rgba(37, 40, 52, 0.2);
+
+$card-hover: scale(1.0125);

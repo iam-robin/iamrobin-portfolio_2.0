@@ -1,0 +1,9 @@
+.project-container {
+  background-color: $white;
+  padding: 80px;
+}
+
+//-- DARKMODE --//
+body.darkmode .project-container {
+  background-color: $white;
+}
