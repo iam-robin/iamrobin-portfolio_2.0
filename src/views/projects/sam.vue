@@ -1,28 +1,28 @@
 <template>
-  <div class="project03">
+  <div class="sam">
     <ProjectBgImage
-      src="augsburg/map3.svg"
+      src="mediacamp/website1.png"
       alt="mediacamp website mockup"
-      color="#E68361"
+      color="#304B59"
       heightContainer="600px"
       heightImg="60%"
     />
     <div class="project-container">
       <ProjectInfo
-        title="Studierende in Augsburg"
-        :tags="['Datenvisualisierung', 'UI Design', 'Frontend']"
-        description="xxx"
+        title="SAM"
+        :tags="['UX Design', 'UI Design', 'Frontend']"
+        description="Beschreibung"
         year="2018"
-        :tools="['sketch', 'framer', 'd3', 'sass', 'git', 'webpack']"
+        :tools="['sketch', 'zeplin', 'vue', 'webpack', 'html', 'sass', 'js']"
       />
       <ProjectSection
-        headline="xxx"
-        text="xxx"
+        headline="Abschnitt"
+        text="Beschreibung Abschnitt"
       />
     </div>
     <ProjectNavigation
-      prev="/projects/project04"
-      next="/projects/project02"
+      prev="/projects/augsburginteilen"
+      next="/projects/mediacamp"
     />
   </div>
 </template>
@@ -36,7 +36,7 @@ import ProjectNavigation from '@/components/project/ProjectNavigation.vue'
 import Tags from '@/components/atoms/Tags.vue'
 
 export default {
-  name: 'project03',
+  name: 'sam',
   components: {
     ProjectInfo,
     ProjectSection,

@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <router-link to="projects/project04">
+    <router-link to="projects/sam">
       <ProjectCard 
         title="SAM"
         description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."
@@ -13,9 +13,9 @@
       />
     </router-link>
 
-    <router-link to="projects/project03">
+    <router-link to="projects/augsburginteilen">
       <ProjectCard
-        title="Augsburg. in Teilen. In Kreisen."
+        title="Augsburg in Teilen."
         description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."
         color="#E68361"
         :tags="['Datenvisualisierung', 'UI Design', 'Frontend']"
@@ -26,7 +26,7 @@
       />
     </router-link>
 
-    <router-link to="projects/project02">
+    <router-link to="projects/meaningfulanimations">
       <ProjectCard
         title="Meaningful Animations"
         description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."
@@ -39,7 +39,7 @@
       />
     </router-link>
 
-    <router-link to="projects/project01">
+    <router-link to="projects/mediacamp">
       <ProjectCard
         title="media.camp"
         description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."

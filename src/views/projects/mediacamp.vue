@@ -75,8 +75,8 @@
       />
     </div>
     <ProjectNavigation
-      prev="/projects/project04"
-      next="/projects/project02"
+      prev="/projects/sam"
+      next="/projects/meaningfulanimations"
     />
   </div>
 </template>
@@ -90,7 +90,7 @@ import ProjectNavigation from '@/components/project/ProjectNavigation.vue'
 import Tags from '@/components/atoms/Tags.vue'
 
 export default {
-  name: 'project01',
+  name: 'mediacamp',
   components: {
     ProjectInfo,
     ProjectSection,

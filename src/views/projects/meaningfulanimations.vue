@@ -1,28 +1,28 @@
 <template>
-  <div class="project04">
+  <div class="meaningfulanimations">
     <ProjectBgImage
       src="mediacamp/website1.png"
       alt="mediacamp website mockup"
-      color="#304B59"
+      color="#5861F4"
       heightContainer="600px"
       heightImg="60%"
     />
     <div class="project-container">
       <ProjectInfo
-        title="SAM"
-        :tags="['UX Design', 'UI Design', 'Frontend']"
-        description="Beschreibung"
-        year="2018"
-        :tools="['sketch', 'zeplin', 'vue', 'webpack', 'html', 'sass', 'js']"
+        title="Meaningful Animations"
+        :tags="['UX Design', 'Motion', 'Bachelorarbeit']"
+        description='"Meaningful Animations - Animationen in Microinteractions im Hinblick auf die Auswirkung der User Experience mobiler Anwendungen" – Im Zuge meiner Bachelorarbeit erarbeitete ich ein Kriterienkatalog für Meaningful Animations, welcher anschließend in einem Nutzertest mit dem Einsatz von Prototypen ausgewertet wurde.'
+        year="2017"
+        :tools="['sketch', 'framer','after-effects', 'markdown']"
       />
       <ProjectSection
-        headline="Abschnitt"
-        text="Beschreibung Abschnitt"
+        headline="xxx"
+        text="xxx"
       />
     </div>
     <ProjectNavigation
-      prev="/projects/project04"
-      next="/projects/project02"
+      prev="/projects/mediacamp"
+      next="/projects/augsburginteilen"
     />
   </div>
 </template>
@@ -36,7 +36,7 @@ import ProjectNavigation from '@/components/project/ProjectNavigation.vue'
 import Tags from '@/components/atoms/Tags.vue'
 
 export default {
-  name: 'project04',
+  name: 'meaningfulanimations',
   components: {
     ProjectInfo,
     ProjectSection,

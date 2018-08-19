@@ -1,19 +1,19 @@
 <template>
-  <div class="project02">
+  <div class="augsburginteilen">
     <ProjectBgImage
-      src="mediacamp/website1.png"
+      src="augsburg/map3.svg"
       alt="mediacamp website mockup"
-      color="#5861F4"
+      color="#E68361"
       heightContainer="600px"
       heightImg="60%"
     />
     <div class="project-container">
       <ProjectInfo
-        title="Meaningful Animations"
-        :tags="['UX Design', 'Motion', 'Bachelorarbeit']"
-        description='"Meaningful Animations - Animationen in Microinteractions im Hinblick auf die Auswirkung der User Experience mobiler Anwendungen" – Im Zuge meiner Bachelorarbeit erarbeitete ich ein Kriterienkatalog für Meaningful Animations, welcher anschließend in einem Nutzertest mit dem Einsatz von Prototypen ausgewertet wurde.'
-        year="2017"
-        :tools="['sketch', 'framer','after-effects', 'markdown']"
+        title="Augsburg in Teilen."
+        :tags="['Datenvisualisierung', 'UI Design', 'Frontend']"
+        description="xxx"
+        year="2018"
+        :tools="['sketch', 'framer', 'd3', 'sass', 'git', 'webpack']"
       />
       <ProjectSection
         headline="xxx"
@@ -21,8 +21,8 @@
       />
     </div>
     <ProjectNavigation
-      prev="/projects/project04"
-      next="/projects/project02"
+      prev="/projects/meaningfulanimations"
+      next="/projects/sam"
     />
   </div>
 </template>
@@ -36,7 +36,7 @@ import ProjectNavigation from '@/components/project/ProjectNavigation.vue'
 import Tags from '@/components/atoms/Tags.vue'
 
 export default {
-  name: 'project02',
+  name: 'augsburginteilen',
   components: {
     ProjectInfo,
     ProjectSection,

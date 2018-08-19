@@ -2,8 +2,8 @@
   <div class="workshop">
     <div class="workshop-container">
       <WorkshopCard
-        title="project title"
-        :tags="['tag', 'tag', 'tag']"
+        title="Braun Produkte"
+        :tags="['Illustration', 'Grafik']"
         color="#F4B93D"
       />
       <WorkshopCard

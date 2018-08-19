@@ -7,10 +7,10 @@ import Privacy from './views/Privacy.vue'
 
 // PROJECTS
 import Projects from './views/Projects.vue'
-import Project01 from './views/projects/Project01.vue'
-import Project02 from './views/projects/Project02.vue'
-import Project03 from './views/projects/Project03.vue'
-import Project04 from './views/projects/Project04.vue'
+import mediacamp from './views/projects/mediacamp.vue'
+import meaningfulanimations from './views/projects/meaningfulanimations.vue'
+import augsburginteilen from './views/projects/augsburginteilen.vue'
+import sam from './views/projects/sam.vue'
 
 // WORKSHOP
 import Workshop from './views/Workshop.vue'
@@ -30,24 +30,24 @@ export default new Router({
       component: Projects
     },
     {
-      path: '/projects/project01',
-      name: 'project01',
-      component: Project01
+      path: '/projects/mediacamp',
+      name: 'mediacamp',
+      component: mediacamp
     },
     {
-      path: '/projects/project02',
-      name: 'project02',
-      component: Project02
+      path: '/projects/meaningfulanimations',
+      name: 'meaningfulanimations',
+      component: meaningfulanimations
     },
     {
-      path: '/projects/project03',
-      name: 'project03',
-      component: Project03
+      path: '/projects/augsburginteilen',
+      name: 'augsburginteilen',
+      component: augsburginteilen
     },
     {
-      path: '/projects/project04',
-      name: 'project04',
-      component: Project04
+      path: '/projects/sam',
+      name: 'sam',
+      component: sam
     },
 
     // ABOUT //
