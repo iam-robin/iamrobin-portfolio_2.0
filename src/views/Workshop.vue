@@ -22,27 +22,27 @@
         color="#34C6BA"
       />
       <WorkshopCard
-        title="project title"
+        title="Auge"
         :tags="['tag', 'tag', 'tag']"
         color="#F4B93D"
       />
       <WorkshopCard
-        title="project title"
+        title="Bundesliga Visualisierung"
         :tags="['tag', 'tag', 'tag']"
         color="#AAB2BD"
       />
       <WorkshopCard
-        title="project title"
+        title="braun Produkte"
         :tags="['tag', 'tag', 'tag']"
         color="#2C3135"
       />
       <WorkshopCard
-        title="project title"
+        title="one tree"
         :tags="['tag', 'tag', 'tag']"
         color="#EB5667"
       />
       <WorkshopCard
-        title="project title"
+        title="Micro Animations"
         :tags="['tag', 'tag', 'tag']"
         color="#34C7BA"
       />

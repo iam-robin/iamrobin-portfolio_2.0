@@ -15,6 +15,9 @@ import Project04 from './views/projects/Project04.vue'
 // WORKSHOP
 import Workshop from './views/Workshop.vue'
 
+// DARKROOM
+import Darkroom from './views/Darkroom.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -59,6 +62,13 @@ export default new Router({
       path: '/workshop',
       name: 'workshop',
       component: Workshop
+    },
+
+    // DARKROOM //
+    {
+      path: '/darkroom',
+      name: 'darkroom',
+      component: Darkroom
     },
 
     // Impressum //
