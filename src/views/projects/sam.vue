@@ -21,8 +21,8 @@
       />
     </div>
     <ProjectNavigation
-      prev="/projects/augsburginteilen"
-      next="/projects/mediacamp"
+      prev="/projects/mediacamp"
+      next="/projects/augsburginteilen"
     />
   </div>
 </template>

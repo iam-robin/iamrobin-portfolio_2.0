@@ -21,8 +21,8 @@
       />
     </div>
     <ProjectNavigation
-      prev="/projects/meaningfulanimations"
-      next="/projects/sam"
+      prev="/projects/sam"
+      next="/projects/meaningfulanimations"
     />
   </div>
 </template>

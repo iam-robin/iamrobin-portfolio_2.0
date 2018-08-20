@@ -1,9 +1,14 @@
 <template>
   <div class="workshop-card">
-    <div class="content" :style="{backgroundColor: color}">
+    <div class="content">
+      <div class="image-container" :style="{backgroundColor: color}">
+        <img :src="require(`@/assets/workshop/${src}`)" :alt="alt" :style="{width: width}">  
+      </div>
       <div class="text-box">
-        <h2>{{ title }}</h2>
-        <tags :tags="tags"/>
+        <div>
+          <h2>{{ title }}</h2>
+          <tags :tags="tags"/>
+        </div>
       </div>
     </div>
   </div>
@@ -17,7 +22,10 @@ export default {
   props: {
     title: String,
     color: String,
-    tags: Array
+    tags: Array,
+    src: String,
+    width: String,
+    alt: String
   },
   components: {
     Tags
@@ -37,21 +45,34 @@ export default {
   .content {
     width: calc(100% - #{$gutterSize});
     height: calc(100% - #{$gutterSize});
-    padding: 16px;
     position: absolute;
     box-shadow: 0 30px 30px 0 rgba(224, 228, 237, .4);
     box-shadow: $card-box-shadow;
     border-radius: 4px;
     transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .image-container {
+      display: flex;
+      flex-grow: 3;
+      align-items: center;
+      justify-content: center;
+    }
 
     .text-box {
-      position: absolute;
+      height: 25%;
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+
       box-sizing: border-box;
       width: 100%;
       left: 0;
       bottom: 0;
-      padding: 24px 40px;
       border-radius: 0 0px 4px 4px;
+      color: $black;
       background-color: $white;
 
       h2 {
@@ -60,7 +81,7 @@ export default {
       }
 
       .tags {
-        margin-top: 8px;
+        margin-top: 4px;
       }
     }
 

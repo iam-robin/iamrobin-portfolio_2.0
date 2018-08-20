@@ -75,8 +75,8 @@
       />
     </div>
     <ProjectNavigation
-      prev="/projects/sam"
-      next="/projects/meaningfulanimations"
+      prev="/projects/meaningfulanimations"
+      next="/projects/sam"
     />
   </div>
 </template>
