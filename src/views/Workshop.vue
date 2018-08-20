@@ -70,10 +70,10 @@
       <WorkshopCard
         title="Micro Animations"
         :tags="['tag', 'tag', 'tag']"
-        color="#EB5767"
-        src="braun/preview.png"
+        color="#5861F4"
+        src="microanimation/preview.png"
         alt="teaser image"
-        width="10%"
+        width="25%"
       />
     </div>
   </div>

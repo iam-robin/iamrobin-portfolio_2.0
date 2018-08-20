@@ -156,7 +156,6 @@ export default {
         transition: all .3s ease-in-out;
 
         &:hover {
-          transform: translateY(-2px);
 
           &:nth-child(1) {
             color: #60BDEA;

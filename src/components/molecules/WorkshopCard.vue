@@ -57,6 +57,7 @@ export default {
     .image-container {
       display: flex;
       flex-grow: 3;
+      border-radius: 4px 4px 0 0;
       align-items: center;
       justify-content: center;
     }
@@ -86,9 +87,8 @@ export default {
     }
 
     &:hover {
-      //transform: scale(1.0125);
       box-shadow: 0 30px 40px 0 rgba(224, 228, 237, .8);
-      transform: $card-hover;
+      transform: translateY(-4px);
       box-shadow: $card-box-shadow-hover;
     }
   }
