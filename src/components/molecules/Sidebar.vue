@@ -83,7 +83,7 @@ export default {
       font-size: 16px;
       font-weight: $bold;
       margin: 0;
-      color: $black;
+      color: $white;
       transition: color .3s ease-in-out;
     }
 
@@ -91,7 +91,7 @@ export default {
       font-family: $mono;
       font-size: 14px;
       margin: 0;
-      color: $black;
+      color: $grey;
       transition: color .3s ease-in-out;
     }
   }
@@ -110,7 +110,7 @@ export default {
     margin-top: 120px;
     a {
       position: relative;
-      color: $grey;
+      color: $darkgrey;
       display: block;
       padding: 12px 0;
       transition: all 0.3s ease-in-out;
@@ -121,7 +121,7 @@ export default {
         margin: 0 6px;
         height: 1px;
         margin-bottom: 4px;
-        background-color: $grey;
+        background-color: $darkgrey;
         transition: all .3s ease-in-out;
       }
 
@@ -130,11 +130,11 @@ export default {
       }
 
       &.router-link-active {
-        color: $black;
+        color: $grey;
 
         .line {
           width: 16px;
-          background-color: $darkgrey;
+          background-color: $grey;
         }
       }
     }
@@ -151,11 +151,12 @@ export default {
       a {
         display: inline-block;
         padding: 8px 10px;
-        color: $black;
+        color: $grey;
         font-size: 18px;
         transition: all .3s ease-in-out;
 
         &:hover {
+          color: $darkgrey;
 
           &:nth-child(1) {
             color: #60BDEA;
@@ -173,7 +174,7 @@ export default {
     .links a {
       display: block;
       font-size: 14px;
-      color: $grey;
+      color: $darkgrey;
 
       &:first-child {
         margin-bottom: 8px;
@@ -190,42 +191,6 @@ export default {
     }
   }
 }
-
-//-- DARKMODE --//
-body.darkmode .sidebar {
-  //background-color: $black;
-
-  .logo-name {
-    color: $white;
-  }
-
-  .logo-desc {
-    color: $grey;
-  }
-
-  .nav a {
-    color: $darkgrey;
-    .line {
-      background-color: $darkgrey;
-    }
-    &.router-link-active {
-      color: $grey;
-      .line {
-        background-color: $grey;
-      }
-    }
-  }
-
-  .contact {
-    .social a {
-      color: $grey;
-    }
-    .links a {
-      color: $darkgrey;
-    }
-  }
-}
-
 
 @media only screen and (max-width: $mobile-breakpoint) {
   .sidebar {

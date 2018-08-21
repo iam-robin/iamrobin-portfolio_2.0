@@ -52,12 +52,12 @@ export default {
   backface-visibility: hidden;
   border-radius: 4px;
   //box-shadow: 0 30px 30px 0 rgba(224, 228, 237, .4);
-  box-shadow: $card-box-shadow;
+  box-shadow: $card-box-shadow-dark;
   transition: all .3s ease-in-out;
 
   &:hover {
     transform: $card-hover;
-    box-shadow: $card-box-shadow-hover;
+    box-shadow: $card-box-shadow-dark-hover;
 
     .number {
       opacity: .5;
@@ -105,10 +105,5 @@ export default {
       width: 32%;
     }
   }
-}
-
-//-- DARKMODE --//
-body.darkmode .project-card {
-  box-shadow: $card-box-shadow-dark;
 }
 </style>

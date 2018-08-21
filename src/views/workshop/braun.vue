@@ -1,6 +1,32 @@
 <template>
   <div class="braun">
-    <h1>braun</h1>
+    <div class="project-container">
+      <ProjectInfo
+        title="Braun Produkt Illustrationen"
+        :tags="['Illustration', 'Grafik']"
+        description="Beschreibung"
+        year="2018"
+        :tools="['sketch']"
+      />
+      <ProjectSection
+        headline="Inspiration"
+      />
+      <ProjectSection
+        headline="Illustrationen"
+      />
+      <ProjectImage
+        src="mediacamp/konzept.png"
+        alt="Braun Radio"
+      />
+      <ProjectImage
+        src="mediacamp/konzept.png"
+        alt="Braun Watch"
+      />
+      <ProjectImage
+        src="mediacamp/konzept.png"
+        alt="Braun Calculator"
+      />
+    </div>
   </div>
 </template>
 
@@ -26,5 +52,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+@import '@/scss/project.scss';
 </style>

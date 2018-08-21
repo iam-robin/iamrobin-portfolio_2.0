@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: $lightgrey;
+  background-color: $black;
   transition: background-color .3s ease-in-out;
 }
 
@@ -62,11 +62,6 @@ p {
     opacity: 1;
     transform: translateY(0px);
   }
-}
-
-//-- DARKMODE --//
-body.darkmode {
-  background-color: $black;
 }
 
 //-- Mobile Layout Breakpoint --//

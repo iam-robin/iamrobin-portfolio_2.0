@@ -47,7 +47,7 @@ export default {
     height: calc(100% - #{$gutterSize});
     position: absolute;
     box-shadow: 0 30px 30px 0 rgba(224, 228, 237, .4);
-    box-shadow: $card-box-shadow;
+    box-shadow: $card-box-shadow-dark;
     border-radius: 4px;
     transition: all .3s ease-in-out;
     display: flex;
@@ -89,16 +89,9 @@ export default {
     &:hover {
       box-shadow: 0 30px 40px 0 rgba(224, 228, 237, .8);
       transform: translateY(-4px);
-      box-shadow: $card-box-shadow-hover;
+      box-shadow: $card-box-shadow-dark-hover;
     }
   }
 }
 
-//-- DARKMODE --//
-body.darkmode .workshop-card .content {
-  box-shadow: $card-box-shadow-dark;
-  &:hover {
-    box-shadow: $card-box-shadow-dark-hover;
-  }
-}
 </style>
