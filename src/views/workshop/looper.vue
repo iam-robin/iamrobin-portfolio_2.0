@@ -3,7 +3,7 @@
     <ProjectInfo
       title="Looper"
       :tags="['Generative Art', 'Illustration']"
-      description="XXX"
+      description="Diese generierten Illustrationen wurden mit dem Sketch Plugin Looper erstellt. Durch das Duplizieren, Bewegen und Rotieren einer Grundform entstehen abstrakte Formen."
       year="2018"
       :tools="['sketch', 'looper']"
     />

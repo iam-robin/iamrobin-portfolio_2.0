@@ -21,38 +21,46 @@
           width="30%"
         />
       </router-link>
-      <WorkshopCard
-        title="Silence and Flow"
-        :tags="['Logo', 'Branding', 'Entwürfe']"
-        color="#C6EBE2"
-        src="silenceflow/preview.png"
-        alt="teaser image"
-        width="16%"
-      />
-      <WorkshopCard
-        title="HOLD"
-        :tags="['mobile App', 'Konzept']"
-        color="#4465F4"
-        src="hold/preview.png"
-        alt="teaser image"
-        width="20%"
-      />
-      <WorkshopCard
-        title="Auge"
-        :tags="['tag', 'tag', 'tag']"
-        color="#CED4DF"
-        src="eye/preview.png"
-        alt="teaser image"
-        width="15%"
-      />
-      <WorkshopCard
-        title="Bundesliga Visualisierung"
-        :tags="['tag', 'tag', 'tag']"
-        color="#3C464C"
-        src="bundesliga/preview.png"
-        alt="teaser image"
-        width="20%"
-      />
+      <router-link to="workshop/silenceandflow">
+        <WorkshopCard
+          title="Silence and Flow"
+          :tags="['Logo', 'Branding', 'Entwürfe']"
+          color="#C6EBE2"
+          src="silenceflow/preview.png"
+          alt="teaser image"
+          width="16%"
+        />
+      </router-link>
+      <router-link to="workshop/hold">
+        <WorkshopCard
+          title="HOLD"
+          :tags="['mobile App', 'Konzept']"
+          color="#4465F4"
+          src="hold/preview.png"
+          alt="teaser image"
+          width="20%"
+        />
+      </router-link>
+      <router-link to="workshop/eye">
+        <WorkshopCard
+          title="Auge"
+          :tags="['tag', 'tag', 'tag']"
+          color="#CED4DF"
+          src="eye/preview.png"
+          alt="teaser image"
+          width="15%"
+        />
+      </router-link>
+      <router-link to="workshop/bundesliga">
+        <WorkshopCard
+          title="Bundesliga Visualisierung"
+          :tags="['tag', 'tag', 'tag']"
+          color="#3C464C"
+          src="bundesliga/preview.png"
+          alt="teaser image"
+          width="20%"
+        />
+      </router-link>
       <WorkshopCard
         title="Labyrinth"
         :tags="['p5.js', 'generative Art']"

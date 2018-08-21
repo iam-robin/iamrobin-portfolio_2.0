@@ -16,6 +16,10 @@ import sam from './views/projects/sam.vue'
 import Workshop from './views/Workshop.vue'
 import braun from './views/workshop/braun.vue'
 import looper from './views/workshop/looper.vue'
+import silenceandflow from './views/workshop/silenceandflow.vue'
+import bundesliga from './views/workshop/bundesliga.vue'
+import eye from './views/workshop/eye.vue'
+import hold from './views/workshop/hold.vue'
 
 // DARKROOM
 import Darkroom from './views/Darkroom.vue'
@@ -74,6 +78,26 @@ export default new Router({
       path: '/workshop/looper',
       name: 'looper',
       component: looper
+    },
+    {
+      path: '/workshop/silenceandflow',
+      name: 'silenceandflow',
+      component: silenceandflow
+    },
+    {
+      path: '/workshop/hold',
+      name: 'hold',
+      component: hold
+    },
+    {
+      path: '/workshop/eye',
+      name: 'eye',
+      component: eye
+    },
+    {
+      path: '/workshop/bundesliga',
+      name: 'bundesliga',
+      component: bundesliga
     },
 
     // DARKROOM //
