@@ -148,6 +148,10 @@ export default {
       margin-bottom: 16px;
       display: flex;
 
+      &:hover a {
+        color: $darkgrey;
+      }
+
       a {
         display: inline-block;
         padding: 8px 10px;
