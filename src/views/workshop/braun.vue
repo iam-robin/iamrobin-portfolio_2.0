@@ -18,14 +18,6 @@
         src="mediacamp/konzept.png"
         alt="Braun Radio"
       />
-      <ProjectImage
-        src="mediacamp/konzept.png"
-        alt="Braun Watch"
-      />
-      <ProjectImage
-        src="mediacamp/konzept.png"
-        alt="Braun Calculator"
-      />
     </div>
   </div>
 </template>

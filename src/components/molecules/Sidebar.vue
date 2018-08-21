@@ -40,7 +40,6 @@
         <router-link to="/impressum">
           <a href="#" alt="Impressum">Impressum</a>
         </router-link>
-          <span v-on:click="changemode" class="bulb">💡</span>
       </div>
     </div>
   </div>
@@ -48,13 +47,7 @@
 
 <script>
 export default {
-  name: 'Sidebar',
-  methods: {
-    changemode: function () {
-      let body = document.getElementsByTagName('body')[0];
-      body.classList.toggle("darkmode");
-    }
-  }
+  name: 'Sidebar'
 }
 </script>
 

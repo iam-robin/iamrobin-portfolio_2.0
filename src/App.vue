@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="darkmode">
+  <div id="app">
     <Sidebar/>
     <div id="content">
       <!-- add transition classes to router views-->

@@ -2,7 +2,7 @@
   <div class="workshop-card">
     <div class="content">
       <div class="image-container" :style="{backgroundColor: color}">
-        <img :src="require(`@/assets/workshop/${src}`)" :alt="alt" :style="{width: width}">  
+        <v-lazy-image :src="require(`@/assets/workshop/${src}`)" :alt="alt" :style="{width: width}"/>  
       </div>
       <div class="text-box">
         <div>
@@ -15,6 +15,7 @@
 </template>
 
 <script>
+import VLazyImage from "v-lazy-image";
 import Tags from '@/components/atoms/Tags.vue'
 
 export default {
@@ -28,12 +29,14 @@ export default {
     alt: String
   },
   components: {
+    VLazyImage,
     Tags
   }
 }
 </script>
 
 <style scoped lang="scss">
+@import '@/scss/lazyload.scss';
 .workshop-card {
   width: calc(100% / #{$columns});
   float: left;
