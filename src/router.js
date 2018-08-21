@@ -15,6 +15,7 @@ import sam from './views/projects/sam.vue'
 // WORKSHOP
 import Workshop from './views/Workshop.vue'
 import braun from './views/workshop/braun.vue'
+import looper from './views/workshop/looper.vue'
 
 // DARKROOM
 import Darkroom from './views/Darkroom.vue'
@@ -68,6 +69,11 @@ export default new Router({
       path: '/workshop/braun',
       name: 'braun',
       component: braun
+    },
+    {
+      path: '/workshop/looper',
+      name: 'looper',
+      component: looper
     },
 
     // DARKROOM //

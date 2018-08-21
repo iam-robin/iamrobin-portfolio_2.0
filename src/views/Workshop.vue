@@ -11,14 +11,16 @@
           width="32%"
         />
       </router-link>
-      <WorkshopCard
-        title="Generierte Loops"
-        :tags="['Generative Art']"
-        color="#F4B93D"
-        src="looper/preview.png"
-        alt="teaser image"
-        width="30%"
-      />
+      <router-link to="workshop/looper">
+        <WorkshopCard
+          title="Looper"
+          :tags="['Generative Art', 'Illustration']"
+          color="#F4B93D"
+          src="looper/preview.png"
+          alt="teaser image"
+          width="30%"
+        />
+      </router-link>
       <WorkshopCard
         title="Silence and Flow"
         :tags="['Logo', 'Branding', 'Entwürfe']"
