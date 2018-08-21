@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-lazy-image :src="require(`@/assets/projects/${src}`)" :alt="alt" class="project-image"/>
+    <v-lazy-image :src="require(`@/assets/${src}`)" :alt="alt" class="project-image"/>
   </div>
 </template>
 

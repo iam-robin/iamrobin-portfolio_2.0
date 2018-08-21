@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import VLazyImage from "v-lazy-image";
 import Tags from '@/components/atoms/Tags.vue'
 
 export default {
@@ -29,7 +28,6 @@ export default {
     alt: String
   },
   components: {
-    VLazyImage,
     Tags
   }
 }

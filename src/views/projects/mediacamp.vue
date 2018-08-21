@@ -50,7 +50,7 @@
         text="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen."
       />
       <ProjectImage
-        src="mediacamp/poster2.png"
+        src="projects/mediacamp/poster2.png"
         alt="mediacamp website mockup"
       />
       <ProjectSection
@@ -58,11 +58,11 @@
         text="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen."
       />
       <ProjectImage
-        src="mediacamp/konzept.png"
+        src="projects/mediacamp/konzept.png"
         alt="mediacamp Konzept"
       />
       <ProjectImage
-        src="mediacamp/desktop.png"
+        src="projects/mediacamp/desktop.png"
         alt="mediacamp desktop version"
       />
       <ProjectSection
@@ -70,7 +70,7 @@
         text="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen."
       />
       <ProjectImage
-        src="mediacamp/timer.png"
+        src="projects/mediacamp/timer.png"
         alt="mediacamp timer"
       />
     </div>

@@ -7,7 +7,7 @@
     </div>
     <div class="number">{{number}}</div>
     <div class="image-container" :style="{backgroundColor: color}">
-      <img :src="require(`@/assets/projects/${src}`)" :alt="alt" :style="{width: width}">
+      <v-lazy-image :src="require(`@/assets/projects/${src}`)" :alt="alt" :style="{width: width}"/>
     </div>
   </div>
 </template>
@@ -35,6 +35,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import '@/scss/lazyload.scss';
 .project-card {
   display: flex;
   position: relative;

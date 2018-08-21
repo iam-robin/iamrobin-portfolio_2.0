@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import { VLazyImagePlugin } from "v-lazy-image";
 import VueInstagram from 'vue-instagram'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faDribbble } from '@fortawesome/free-brands-svg-icons'
@@ -10,7 +11,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faDribbble, faTwitter, faInstagram)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 Vue.use(VueInstagram)
+Vue.use(VLazyImagePlugin)
 
 Vue.config.productionTip = false
 

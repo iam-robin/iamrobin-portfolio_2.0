@@ -4,19 +4,24 @@
       <ProjectInfo
         title="Braun Produkt Illustrationen"
         :tags="['Illustration', 'Grafik']"
-        description="Beschreibung"
+        description="Braun, und insbesondere Dieter Rams, haben die moderne Formgebung im Produkt-Design stark geprägt. Um mich in die Thematik der Illustration einzuarbeiten habe ich diverse Produkte von Braun mit simplen Vektorformen visualisiert."
         year="2018"
         :tools="['sketch']"
-      />
-      <ProjectSection
-        headline="Inspiration"
       />
       <ProjectSection
         headline="Illustrationen"
       />
       <ProjectImage
-        src="mediacamp/konzept.png"
+        src="workshop/braun/radio.png"
         alt="Braun Radio"
+      />
+      <ProjectImage
+        src="workshop/braun/watch.png"
+        alt="Braun Watch"
+      />
+      <ProjectImage
+        src="workshop/braun/calc.png"
+        alt="Braun Calculator"
       />
     </div>
   </div>
