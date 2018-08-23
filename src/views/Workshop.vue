@@ -5,7 +5,7 @@
         <WorkshopCard
           title="Braun Produkte"
           :tags="['Illustration', 'Grafik']"
-          color="#F3DEC4"
+          color="#6CD8BE"
           src="braun/preview.png"
           alt="teaser image"
           width="32%"

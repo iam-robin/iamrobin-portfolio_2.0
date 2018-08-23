@@ -1,11 +1,11 @@
 <template>
   <div class="project-navigation">
     <router-link :to="prev">
-      <div class="prev">vorheriges</div>
+      vorheriges Projekt
     </router-link>
     <router-link to="/projects">Alle Projekte</router-link>
     <router-link :to="next">
-      <div class="next">nächstes</div>
+      nächstes Projekt
     </router-link>
   </div>
 </template>
@@ -26,22 +26,26 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  background-color: $white;
   margin-top: 40px;
-  height: 80px;
 
   a {
     flex-grow: 1;
     text-align: center;
     color: $black;
     text-decoration: none;
-  }
-
-  .prev, .next {
-    height: 80px;
     line-height: 80px;
-    .color {
-      background-color: aqua;
+    background-color: $white;
+
+    &:first-child {
+        border-radius: 4px 0 0 4px;
+    }
+
+    &:nth-child(2) {
+      
+    }
+
+    &:last-child {
+      border-radius: 0 4px 4px 0;
     }
   }
 }
