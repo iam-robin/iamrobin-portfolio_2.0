@@ -14,11 +14,11 @@
       <router-link to="/workshop">
         02<span class="line"></span>Werkstatt
       </router-link>
-      <router-link to="/darkroom">
+      <!--<router-link to="/darkroom">
         03<span class="line"></span>Dunkelkammer
-      </router-link>
+      </router-link>-->
       <router-link to="/about">
-        04<span class="line"></span>Über mich
+        03<span class="line"></span>Über mich
       </router-link>
     </div>
     <div class="contact">

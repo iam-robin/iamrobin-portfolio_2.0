@@ -46,7 +46,7 @@ export default {
   height: 400px;
   padding-left: 80px;
   box-sizing: border-box;
-  margin-bottom: 40px;
+  margin-bottom: 64px;
   color: $black;
   text-decoration: none;
   font-family: $sans;

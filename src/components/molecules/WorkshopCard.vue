@@ -78,7 +78,7 @@ export default {
       background-color: $white;
 
       h2 {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0;
       }
 
