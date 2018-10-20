@@ -46,13 +46,12 @@ export default {
   height: 400px;
   padding-left: 80px;
   box-sizing: border-box;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
   color: $black;
   text-decoration: none;
   font-family: $sans;
   backface-visibility: hidden;
   border-radius: 4px;
-  //box-shadow: 0 30px 30px 0 rgba(224, 228, 237, .4);
   box-shadow: $card-box-shadow-dark;
   transition: all .3s ease-in-out;
 
@@ -85,7 +84,7 @@ export default {
     color: $grey;
     opacity: .4;
     font-family: $mono;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: $bold;
     top: 40px;
     right: 40%;

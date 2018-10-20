@@ -1,17 +1,17 @@
 <template>
   <div class="sam">
     <ProjectBgImage
-      src="mediacamp/website1.png"
-      alt="mediacamp website mockup"
+      src="sam/header.png"
+      alt="sam header"
       color="#304B59"
       heightContainer="600px"
-      heightImg="60%"
+      heightImg="50%"
     />
     <div class="project-container">
       <ProjectInfo
         title="SAM"
         :tags="['UX Design', 'UI Design', 'Frontend']"
-        description="Beschreibung"
+        description="Im Rahmen eines einjährigen Masterprojekts des Studiengangs »Interaktive Mediensysteme« der Hochschule Augsburg konzepierte, gestaltete und entwickelte ich in einem Team von acht Masterstudenten die Web-Applikation »SAM«. Die webbasierte Anwendung ermöglicht Kurs- und Projektanmeldungen für Studierende an der Hochschule Augsburg. Dozenten erstellen Kurse und Projekte, in welche sich anschließend Studierende in Form von Prioritätslisten eintragen. Darauf folgend teilt ein Zuteilungsalgorithmus die Studierende auf einzelne Kurse und Projekte zu."
         year="2018"
         :tools="['sketch', 'zeplin', 'vue', 'webpack', 'html', 'sass', 'js']"
       />

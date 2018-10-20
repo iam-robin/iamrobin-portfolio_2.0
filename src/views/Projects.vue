@@ -3,7 +3,7 @@
     <router-link to="projects/sam">
       <ProjectCard 
         title="SAM"
-        description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."
+        description="Jedes Semester müssen an der Hochschule Augsburg eine Großzahl von Studierenden auf verschiedenen Projekte und Kurse eingeteilt werden. Die Web-Applikation »SAM« schafft hierbei Abhilfe."
         color="#304B56"
         :tags="['UX Design', 'UI Design', 'Frontend']"
         number="01"
@@ -16,7 +16,7 @@
     <router-link to="projects/augsburginteilen">
       <ProjectCard
         title="Augsburg in Teilen."
-        description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."
+        description="Wo wohnen die Studierenden in Augsburg? Eine interaktive Datenvisualisierung, welche sich mit genau dieser Frage auseinandersetzt!"
         color="#E68361"
         :tags="['Datenvisualisierung', 'UI Design', 'Frontend']"
         number="02"
@@ -29,7 +29,7 @@
     <router-link to="projects/meaningfulanimations">
       <ProjectCard
         title="Meaningful Animations"
-        description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."
+        description="Meine Bachelorarbeit drehte sich rund um das Thema »Animationen in User Interfaces«. Wann macht der Einsatz Sinn und was muss dabei beachtet werden?"
         color="#5861F4"
         :tags="['UX Design', 'Motion', 'Bachelorarbeit']"
         number="03"
@@ -42,7 +42,7 @@
     <router-link to="projects/mediacamp">
       <ProjectCard
         title="media.camp"
-        description="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500."
+        description="Ein Barcamp von Studierenden für Studierende in den Räumlichkeiten der Fakultät »Digitale Medien« der Hochschule Furtwangen."
         color="#F7BE40"
         :tags="['Organisation', 'Identity', 'Frontend']"
         number="04"

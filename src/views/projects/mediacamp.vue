@@ -17,7 +17,7 @@
       />
       <ProjectSection
         headline="Barcamp"
-        text="Das media.camp ist ein Barcamp in den Räumlichkeiten der Fakultät Digitale Medien der Hochschule Furtwangen. Im Zuge des media.camp treffen sich einmal im Semester Medienstudenten und externe Speaker aus der freien Wirtschaft und sorgen in Form von Vorträgen und Workshops für einen Wissensaustausch rund um das Thema digitale Medien. Supporter wie t3n und ZEIT Campus sorgen zudem für die passende Leselektüre in Form von kostenlosen Magazinen."
+        text="Das media.camp ist ein Barcamp in den Räumlichkeiten der Fakultät »Digitale Medien« der Hochschule Furtwangen. Im Zuge des media.camp treffen sich einmal im Semester Medienstudenten und externe Speaker aus der freien Wirtschaft und sorgen in Form von Vorträgen und Workshops für einen Wissensaustausch rund um das Thema digitale Medien. Supporter wie t3n und ZEIT Campus sorgen zudem für die passende Leselektüre in Form von kostenlosen Magazinen."
       />
       <div class="photo-gallery">
         <div class="image">
@@ -47,15 +47,19 @@
       </div>
       <ProjectSection
         headline="Identity"
-        text="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen."
+        text="Einer meiner ersten Aufgaben war es, die Coperate Identity des media.camps zu überarbeiten. In diesem Zuge wurde das Logo vereinfacht und die serifenlose Font »Lato« für ein neues Schriftbild eingeführt. Zudem wurden die Primärfarben überarbeitet, welche im Einsatz von Farbakzenten für Wiedererkennung sorgen sollen."
+      />
+      <ProjectImage
+        src="projects/mediacamp/styleguide.png"
+        alt="mediacamp styleguide"
       />
       <ProjectImage
         src="projects/mediacamp/poster2.png"
-        alt="mediacamp website mockup"
+        alt="mediacamp poster design"
       />
       <ProjectSection
         headline="Website"
-        text="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen."
+        text="Zudem sorgte ich für einen Relaunch der Website. Hauptaufgabe des neuen Webauftritts war es, die Informationen des Barcamps leicht zugänglich zu gestalten und übersichtlich aufzubereiten. Zudem sollte das Design der Website auf die überarbeitete Corporate Identity angepasst werden und das moderne und leichtgewichtige Gefühl des media.camp repräsentieren."
       />
       <ProjectImage
         src="projects/mediacamp/konzept.png"
@@ -67,7 +71,7 @@
       />
       <ProjectSection
         headline="Installation"
-        text="Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen."
+        text="Ein bis zwei Wochen vor Beginn des Barcamp wurde im Hauptgebäude der Fakultät »Digitale Medien« der Hochschule Furtwangen ein großflächer Timer an eine der Innenwände projiziert. Neben Social-Media-Kampagnen war die Installation der größte Baustein um die Studierenden auf das Event aufmerksam zu machen."
       />
       <ProjectImage
         src="projects/mediacamp/timer.png"
